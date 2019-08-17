@@ -9,6 +9,7 @@ from optparse import OptionParser, Option, OptionValueError
 
 directory = str(sys.argv[2])
 proc_id = int(sys.argv[1])
+# directory = "/Users/hy31/Desktop/Archival Sources Printed"
 
 def list_callback(option, opt, value, parser):
     setattr(parser.values, option.dest, value.split(','))
@@ -37,9 +38,11 @@ def ocr(file_path, proc_id):
 		writer = csv.writer(c)
 		with open("checkpoint_%d.csv" %proc_id, "r") as c:
 			reader = csv.reader(c)
-			paths = [row for row in reader]
+			paths = [row for row in reader if row[1] == "F"]
 			for path in paths:
+				
 				imgpath=path[0]
+				#print(imgpath)
 				filename = str(os.path.basename(imgpath))
 				filedir = str(os.path.dirname(imgpath))
 				fileext = os.path.splitext(imgpath)[1]

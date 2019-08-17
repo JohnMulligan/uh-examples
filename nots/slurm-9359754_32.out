@@ -1,0 +1,9 @@
+Requirement already satisfied: pandas in /opt/apps/software/MPI/GCC/7.3.0/OpenMPI/3.1.2/Python/3.6.6/lib/python3.6/site-packages/pandas-0.23.4-py3.6-linux-x86_64.egg (0.23.4)
+Requirement already satisfied: python-dateutil>=2.5.0 in /opt/apps/software/MPI/GCC/7.3.0/OpenMPI/3.1.2/Python/3.6.6/lib/python3.6/site-packages/python_dateutil-2.7.3-py3.6.egg (from pandas) (2.7.3)
+Requirement already satisfied: pytz>=2011k in /opt/apps/software/MPI/GCC/7.3.0/OpenMPI/3.1.2/Python/3.6.6/lib/python3.6/site-packages/pytz-2018.5-py3.6.egg (from pandas) (2018.5)
+Requirement already satisfied: numpy>=1.9.0 in /opt/apps/software/MPI/GCC/7.3.0/OpenMPI/3.1.2/Python/3.6.6/lib/python3.6/site-packages/numpy-1.15.0-py3.6-linux-x86_64.egg (from pandas) (1.15.0)
+Requirement already satisfied: six>=1.5 in /opt/apps/software/MPI/GCC/7.3.0/OpenMPI/3.1.2/Python/3.6.6/lib/python3.6/site-packages/six-1.11.0-py3.6.egg (from python-dateutil>=2.5.0->pandas) (1.11.0)
+Requirement already satisfied: pytesseract in /home/jcm10/.local/lib/python3.6/site-packages (0.2.9)
+Requirement already satisfied: Pillow in /home/jcm10/.local/lib/python3.6/site-packages (from pytesseract) (6.1.0)
+Requirement already satisfied: PyPDF2 in /home/jcm10/.local/lib/python3.6/site-packages (1.26.0)
+slurmstepd: *** JOB 9359787 ON bc12u11n2 CANCELLED AT 2019-08-16T14:05:07 DUE TO TIME LIMIT ***
